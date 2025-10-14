@@ -1,100 +1,95 @@
 Mega Project List
 ========
 
-A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/thekarangoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has it's own folder.
+A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/thekarangoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has its own folder.
 
-#### [RECOGNITION](https://github.com/thekarangoel/Projects/tree/master/RECOGNITION)
+To get started, simply fork this repo.
 
-Ever since this repo was created, it has been in the top list on GH. Be it the daily or weekly list! This repo is in the top 5 on GitHub on [July 14 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-14.png). (And again on [July 22, 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-22%2013_10_30.png), and again on [July 23, 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-2013-07-23.png).) And on [weekly](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-weekly-2013-07-22.png) [list](https://github.com/thekarangoel/Projects/blob/master/RECOGNITION/top5-weekly-2013-07-23.png) during the week of July 2013. In the last week of July, *Projects* was in the monthly top list on GH.
+## [CONTRIBUTING](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
 
-![July 25, 2013](https://raw.github.com/thekarangoel/Projects/master/RECOGNITION/top5-monthly-2013-07-25.png)
+See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute **solutions** (will be published in this [repo](https://github.com/thekarangoel/Projects-Solutions)) to existing problems, **add new projects** or remove existing ones. Make sure you follow all instructions properly.
 
-===============================
 
-### [CONTRIBUTING](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md)
+## [Solutions](https://github.com/thekarangoel/Projects-Solutions)
 
-See ways of [contributing](https://github.com/thekarangoel/Projects/blob/master/CONTRIBUTING.md) to this repo. You can contribute solutions (will be published in this [repo](https://github.com/thekarangoel/Projects-Solutions)) to existing problems, add new projects or remove existing ones. Make sure you follow all instructions properly.
+You can find implementations of these projects in many other languages by other users in [this repo](https://github.com/thekarangoel/Projects-Solutions).
 
-================================
+## Credits
 
-### [Solutions](https://github.com/thekarangoel/Projects-Solutions)
+This repo was compiled by [Karan Goel](http://twitter.com/karangoel).
 
-You can find implementations of these projects in many other languages by other users in this [repo](https://github.com/thekarangoel/Projects-Solutions).
+Problems are motivated by the ones shared at:
 
-================================
+* [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
+* [Rosetta Code](http://rosettacode.org/)
 
-### Donations
+## Table of Contents
 
-If *Projects* has helped you in any way, and you'd like to help the developer, please consider donating.
-
-**- BTC: [19dLDL4ax7xRmMiGDAbkizh6WA6Yei2zP5](http://i.imgur.com/bAQgKLN.png)**
-
-**- Gittip: [https://www.gittip.com/karan/](https://www.gittip.com/karan/)**
-
-**- Flattr: [https://flattr.com/profile/thekarangoel](https://flattr.com/profile/thekarangoel)**
-
-================================
-
-Some details about this repo:
-
-* I will use Python to solve these. Why? Because I want to learn the language quickly.
-* I have no interest in making games, so I'm excluding those from the list below.
-* I'm not interested in networking, so I *might* skip all (or some) of them.
-* The projects will not be made in the order posted.
-* I may not be able to complete all of them. 
-* My method of solving them may not be the best. If you do not like my algorithm(s), please add a comment for the file/commit or open an issue, and I'll try to improve.
-
-I will link to each project that I complete. Some will be in this same repo, some bigger ones will have dedicated repos.
-
-To get started, fork this repo, delete this README and rename [*README-scratch.md*](https://github.com/thekarangoel/Projects/blob/master/README-scratch.md) to *README.md*.
-
-===============================
+- [Numbers](https://github.com/karan/Projects#numbers)
+- [Classic Algorithms](https://github.com/karan/Projects#classic-algorithms)
+- [Graph](https://github.com/karan/Projects#graph)
+- [Data Structures](https://github.com/karan/Projects#data-structures)
+- [Text](https://github.com/karan/Projects#text)
+- [Networking](https://github.com/karan/Projects#networking)
+- [Classes](https://github.com/karan/Projects#classes)
+- [Threading](https://github.com/karan/Projects#threading)
+- [Web](https://github.com/karan/Projects#web)
+- [Files](https://github.com/karan/Projects#files)
+- [Databases](https://github.com/karan/Projects#databases)
+- [Graphics and Multimedia](https://github.com/karan/Projects#graphics-and-multimedia)
+- [Security](https://github.com/karan/Projects#security)
 
 Numbers
 ---------
 
-[**Find PI to the Nth Digit**](https://github.com/thekarangoel/Projects/blob/master/Numbers/pi.py) - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
+**Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
-[**Fibonacci Sequence**](https://github.com/thekarangoel/Projects/blob/master/Numbers/fibonacci.py) - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+**Find e to the Nth Digit** - Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.
 
-[**Prime Factorization**](https://github.com/thekarangoel/Projects/blob/master/Numbers/prime.py) - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+**Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
-[**Next Prime Number**](https://github.com/thekarangoel/Projects/blob/master/Numbers/next_prime.py) - Have the program find prime numbers until the user chooses to stop asking for the next one.
+**Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
-[**Find Cost of Tile to Cover W x H Floor**](https://github.com/thekarangoel/Projects/blob/master/Numbers/tile.py) - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
+**Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
-**Mortgage Calculator** - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
+**Find Cost of Tile to Cover W x H Floor** - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
-[**Change Return Program**](https://github.com/thekarangoel/Projects/blob/master/Numbers/change.py) - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+**Mortgage Calculator** - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).
 
-[**Binary to Decimal and Back Converter**](https://github.com/thekarangoel/Projects/blob/master/Numbers/binary_decimal.py) - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
+**Change Return Program** - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
 
-[**Calculator**](https://github.com/thekarangoel/Projects/blob/master/Numbers/calc.py) - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
+**Binary to Decimal and Back Converter** - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 
-[**Unit Converter (temp, currency, volume, mass and more)**](https://github.com/thekarangoel/Projects/blob/master/Numbers/unit.py) - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
+**Calculator** - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 
-[**Alarm Clock**](https://github.com/thekarangoel/Projects/blob/master/Numbers/alarm.py) - A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
+**Unit Converter (temp, currency, volume, mass and more)** - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
 
-[**Distance Between Two Cities**](https://github.com/thekarangoel/Projects/blob/master/Numbers/distance.py) - Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
+**Alarm Clock** - A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
 
-[**Credit Card Validator**](https://github.com/thekarangoel/Projects/blob/master/Numbers/credit_card_validator.py) - Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
+**Distance Between Two Cities** - Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
 
-[**Tax Calculator**](https://github.com/karan/Projects/blob/master/Numbers/tax.py) - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
+**Credit Card Validator** - Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
 
-[**Factorial Finder**](https://github.com/thekarangoel/Projects/blob/master/Numbers/factorial.py) - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
+**Tax Calculator** - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
+
+**Factorial Finder** - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
 
 **Complex Number Algebra** - Show addition, multiplication, negation, and inversion of complex numbers in separate functions. (Subtraction and division operations can be made with pairs of these operations.) Print the results for each operation tested.
 
-[**Happy Numbers**](https://github.com/thekarangoel/Projects/blob/master/Numbers/happy_numbers.py) - A happy number is defined by the following process. Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers. Take an input number from user, and find first 8 happy numbers from that input.
+**Happy Numbers** - A happy number is defined by the following process. Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers. Display an example of your output here. Find first 8 happy numbers.
 
 **Number Names** - Show how to spell out a number in English. You can use a preexisting implementation or roll your own, but you should support inputs up to at least one million (or the maximum value of your language's default bounded integer type, if that's less). *Optional: Support for inputs other than positive integers (like zero, negative integers, and floating-point numbers).*
 
 **Coin Flip Simulation** - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.
 
+**Limit Calculator** - Ask the user to enter f(x) and the limit value, then return the value of the limit statement *Optional: Make the calculator capable of supporting infinite limits.*
+
+**Fast Exponentiation** - Ask the user to enter 2 integers a and b and output a^b (i.e. pow(a,b)) in O(lg n) time complexity.
+
 Classic Algorithms
 -----------------
 
-[**Collatz Conjecture**](https://github.com/thekarangoel/Projects/blob/master/Classic%20Algorithms/collatz.py) - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
+**Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
 
 **Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort.
 
@@ -102,8 +97,9 @@ Classic Algorithms
 
 **Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
 
-Graphs
----------
+
+Graph
+--------
 
 **Graph from links** - Create a program that will create a graph or network from a series of links.
 
@@ -113,43 +109,43 @@ Graphs
 
 **Dijkstra’s Algorithm** - Create a program that finds the shortest path through a graph using its edges.
 
+**Minimum Spanning Tree** - Create a program which takes a connected, undirected graph with weights and outputs the minimum spanning tree of the graph i.e., a
+subgraph that is a tree, contains all the vertices, and the sum of its weights is the least possible.
+
+
 Data Structures
 ---------
 
 **Inverted index** - An [Inverted Index](http://en.wikipedia.org/wiki/Inverted_index) is a data structure used to create full text search. Given a set of text files, implement a program to create an inverted index. Also create a user interface to do a search using that inverted index which returns a list of files that contain the query term / terms. The search index can be in memory.
 
+
 Text
 ---------
 
-[**Reverse a String**](https://github.com/thekarangoel/Projects/blob/master/Text/reverse.py) - Enter a string and the program will reverse it and print it out.
+**Fizz Buzz** - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
-[**Pig Latin**](https://github.com/thekarangoel/Projects/blob/master/Text/piglatin.py) - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
+**Reverse a String** - Enter a string and the program will reverse it and print it out.
 
-[**Count Vowels**](https://github.com/thekarangoel/Projects/blob/master/Text/count_vowels.py) - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
+**Pig Latin** - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
 
-[**Check if Palindrome**](https://github.com/thekarangoel/Projects/blob/master/Text/palindrome.py) - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
+**Count Vowels** - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
 
-[**Count Words in a String**](https://github.com/thekarangoel/Projects/blob/master/Text/count_words.py) - Counts the number of individual words in a string and display the top 5/10 most used words.
+**Check if Palindrome** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
+
+**Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
 
 **Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
 
-[**RSS Feed Creator**](https://github.com/thekarangoel/Projects/blob/master/Text/rss.py) - Given a link to RSS/Atom Feed, get all posts and display them.
-
-**Post it Notes Program** - A program where you can add text reminders and post them. *Optional: You can have the program also add popup reminders.*
+**RSS Feed Creator** - Given a link to RSS/Atom Feed, get all posts and display them.
 
 **Quote Tracker (market symbols etc)** - A program which can go out and check the current value of stocks for a list of symbols entered by the user. The user can set how often the stocks are checked. For CLI, show whether the stock has moved up or down. *Optional: If GUI, the program can show green up and red down arrows to show which direction the stock value has moved.*
 
 **Guestbook / Journal** - A simple application that allows people to add comments or write journal entries. It can allow comments or not and timestamps for all entries. Could also be made into a shout box. *Optional: Deploy it on Google App Engine or Heroku or any other PaaS (if possible, of course).*
 
-**Fortune Teller (Horoscope)** - A program that checks your horoscope on various astrology sites and puts them together for you each day.
-
 **Vigenere / Vernam / Ceasar Ciphers** - Functions for encrypting and decrypting data messages. Then send them to a friend.
 
-**Random Gift Suggestions** - Enter various gifts for certain people when you think of them. When its time to give them a gift (xmas, birthday, anniversary) it will randomly pick one. *Optional: Suggest places you can get it (link to Amazon page?).*
-
-**Markdown to HTML Converter** - Converts Markdown formatted text into HTML files. Implement basic tags like `p`, `strong`, `em` etc. *Optional: Implement all tags from [Markdown Syntax Docs](http://daringfireball.net/projects/markdown/syntax).* 
-
 **Regex Query Tool** - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
+
 
 Networking
 ---------
@@ -168,12 +164,16 @@ Networking
 
 **Site Checker with Time Scheduling** - An application that attempts to connect to a website or server every so many minutes or a given time and check if it is up. If it is down, it will notify you by email or by posting a notice on screen.
 
+
 Classes
 ---------
 
-[**Product Inventory Project**](https://github.com/thekarangoel/Projects/blob/master/Classes/product_inventory.py) - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an *inventory* class which keeps track of various products and can sum up the inventory value.
+**Product Inventory Project** - Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an *inventory* class which keeps track of various products and can sum up the inventory value.
 
 **Airline / Hotel Reservation System** - Create a reservation system which books airline seats or hotel rooms. It charges various rates for particular sections of the plane or hotel. Example, first class is going to cost more than coach. Hotel rooms have penthouse suites which cost more. Keep track of when rooms will be available and can be scheduled.
+
+**Company Manager** - Create an hierarchy of classes - abstract class Employee and subclasses HourlyEmployee, SalariedEmployee, Manager and Executive. Every one's pay is calculated differently, research a bit about it.
+After you've established an employee hierarchy, create a Company class that allows you to manage the employees. You should be able to hire, fire and raise employees. 
 
 **Bank Account Manager** - Create a class called Account which will be an abstract class for three other classes called CheckingAccount, SavingsAccount and BusinessAccount. Manage credits and debits from these accounts through an ATM style program.
 
@@ -189,6 +189,7 @@ Classes
 
 **Family Tree Creator** - Create a class called Person which will have a name, when they were born and when (and if) they died. Allow the user to create these Person classes and put them into a family tree structure. Print out the tree to the screen.
 
+
 Threading
 ---------
 
@@ -196,18 +197,17 @@ Threading
 
 **Bulk Thumbnail Creator** - Picture processing can take a bit of time for some transformations. Especially if the image is large. Create an image program which can take hundreds of images and converts them to a specified size in the background thread while you do other things. For added complexity, have one thread handling re-sizing, have another bulk renaming of thumbnails etc.
 
+
 Web
 ---------
 
-[**Page Scraper**](https://github.com/thekarangoel/Projects/blob/master/Web/page_scraper.py) - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
-
-**Web Browser with Tabs** - Create a small web browser that allows you to navigate the web and contains tabs which can be used to navigate to multiple web pages at once. For simplicity don’t worry about executing Javascript or other client side code.
+**Page Scraper** - Create an application which connects to a site and pulls out all links, or images, and saves them to a list. *Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.*
 
 **Online White Board** - Create an application which allows you to draw pictures, write notes and use various colors to flesh out ideas for projects. *Optional: Add feature to invite friends to collaborate on a white board online.*
 
-[**Get Atomic Time from Internet Clock**](https://github.com/thekarangoel/Projects/blob/master/Web/time.py) - This program will get the true atomic time from an atomic time clock on the Internet. Use any one of the atomic clocks returned by a simple Google search.
+**Get Atomic Time from Internet Clock** - This program will get the true atomic time from an atomic time clock on the Internet. Use any one of the atomic clocks returned by a simple Google search.
 
-[**Fetch Current Weather**](https://github.com/thekarangoel/GAE-weather) - Get the current weather for a given zip/postal code. *Optional: Try locating the user automatically.*
+**Fetch Current Weather** - Get the current weather for a given zip/postal code. *Optional: Try locating the user automatically.*
 
 **Scheduled Auto Login and Action** - Make an application which logs into a given site on a schedule and invokes a certain action and then logs out. This can be useful for checking web mail, posting regular content, or getting info for other applications and saving it to your computer.
 
@@ -219,12 +219,11 @@ Web
 
 **CAPTCHA Maker** - Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms.
 
+
 Files
 ---------
 
-**Quiz Maker** - Make an application which takes various questions form a file, picked randomly, and puts together a quiz for students. Each quiz can be different and then reads a key to grade the quizzes.
-
-**File Explorer** - Create your own simple windows explorer program. Add feature(s) you always thought are missing from MS Windows Explorer or Mac Finder.
+**Quiz Maker** - Make an application which takes various questions from a file, picked randomly, and puts together a quiz for students. Each quiz can be different and then reads a key to grade the quizzes.
 
 **Sort Excel/CSV File Utility** - Reads a file of records, sorts them, and then writes them back to the file. Allow the user to choose various sort style and sorting based on a particular field.
 
@@ -235,6 +234,7 @@ Files
 **Mp3 Tagger** - Modify and add ID3v1 tags to MP3 files. See if you can also add in the album art into the MP3 file’s header as well as other ID3v2 tags.
 
 **Code Snippet Manager** - Another utility program that allows coders to put in functions, classes or other tidbits to save for use later. Organized by the type of snippet or language the coder can quickly look up code. *Optional: For extra practice try adding syntax highlighting based on the language.*
+
 
 Databases
 ---------
@@ -249,11 +249,10 @@ Databases
 
 **Budget Tracker** - Write an application that keeps track of a household’s budget. The user can add expenses, income, and recurring costs to find out how much they are saving or losing over a period of time. *Optional: Allow the user to specify a date range and see the net flow of money in and out of the house budget for that time period.*
 
-**Address Book** - Keep track of various contacts, their numbers, emails and little notes about them like a Rolodex in the database.
-
 **TV Show Tracker** - Got a favorite show you don’t want to miss? Don’t have a PVR or want to be able to find the show to then PVR it later? Make an application which can search various online TV Guide sites, locate the shows/times/channels and add them to a database application. The database/website then can send you email reminders that a show is about to start and which channel it will be on.
 
 **Travel Planner System** - Make a system that allows users to put together their own little travel itinerary and keep track of the airline / hotel arrangements, points of interest, budget and schedule.
+
 
 Graphics and Multimedia
 ---------
@@ -262,26 +261,16 @@ Graphics and Multimedia
 
 **Stream Video from Online** - Try to create your own online streaming video player.
 
-**Mp3 Player** - A simple program for playing your favorite music files. Add features you though are missing from your favorite music player.
+**Mp3 Player** - A simple program for playing your favorite music files. Add features you think are missing from your favorite music player.
 
 **Watermarking Application** - Have some pictures you want copyright protected? Add your own logo or text lightly across the background so that no one can simply steal your graphics off your site. Make a program that will add this watermark to the picture. *Optional: Use threading to process multiple images simultaneously.*
 
 **Turtle Graphics** - This is a common project where you create a floor of 20 x 20 squares. Using various commands you tell a turtle to draw a line on the floor. You have move forward, left or right, lift or drop pen etc. Do a search online for "Turtle Graphics" for more information. *Optional: Allow the program to read in the list of commands from a file.*
 
+**GIF Creator** A program that puts together multiple images (PNGs, JPGs, TIFFs) to make a smooth GIF that can be exported. *Optional: Make the program convert small video files to GIFs as well.*
+
+
 Security
 -------------
 
-**Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 26. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 26th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 26 keys.
-
-===============================================
-
-Sources
-=======
-
-* [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
-* [Rosetta Code](http://rosettacode.org/)
-* Lots and lots of contributors. Thank you all.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/karan/projects/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+**Caesar cipher** - Implement a Caesar cipher, both encoding and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts "HI" to "JK", but key 20 encrypts "HI" to "BC". This simple "monoalphabetic substitution cipher" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.
